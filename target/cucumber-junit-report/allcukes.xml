@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="87" time="1318.268601">
+<testcase classname="Smoketest to make sure about us page is functioning" name="Navigating to about us page" time="5.259547">
+<system-out><![CDATA[Given client website has an about us page...................................passed
+When I click on the about us link...........................................passed
+Then I am taken to the about us page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="smoke test to make sure advanced search is functioning" name="Navigating to Advanced Search" time="2.834907">
+<system-out><![CDATA[Given I am on home page.....................................................passed
+When I click on Advanced Search link........................................passed
+Then I am taken to the Advanced Search page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="smoke test to make sure advanced search is functioning" name="Searching for something and getting results" time="3.782315">
+<system-out><![CDATA[Given I am on Advanced Search page..........................................passed
+When I search for a product.................................................passed
+And my search terms are good................................................passed
+Then search results should be displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="smoke test to make sure advanced search is functioning" name="Searching for something and there are no results" time="3.395487">
+<system-out><![CDATA[Given I am on Advanced Search page..........................................passed
+When I search for a product.................................................passed
+And my search terms are bad.................................................passed
+Then no results should be displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke test to make sure bundled product page is working" name="I am on a bundled product page" time="4.492997">
+<system-out><![CDATA[Given I am on a bundled product page........................................passed
+Then product name, price range, and availability should be displayed........passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke test to make sure bundled product page is working" name="Bundled product is in stock" time="31.180292">
+<failure message="org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with&#10;Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'&#10;System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 30.29 seconds&#10;Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'&#10;System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=b802b2c6-28b3-45f3-8ad3-dd69351fce24, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: b802b2c6-28b3-45f3-8ad3-dd69351fce24&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:408)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)&#10;&#9;at DemoSite.SmokeTests.BundledProductStepDefinitions.i_am_on_a_bundled_product_page(BundledProductStepDefinitions.java:42)&#10;&#9;at ✽.Given I am on a bundled product page(BundledProductSMokeTest.feature:9)&#10;Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken&#10;Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'&#10;System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'&#10;Driver info: driver.version: RemoteWebDriver&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:125)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)&#10;&#9;at DemoSite.SmokeTests.BundledProductStepDefinitions.i_am_on_a_bundled_product_page(BundledProductStepDefinitions.java:42)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:483)&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:37)&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:13)&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:31)&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:298)&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:98)&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#10;Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with&#10;Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'&#10;System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#10;Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'&#10;System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#10;&#9;at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/anonymous3221033977483181779webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/anonymous3221033977483181779webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/anonymous3221033977483181779webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/anonymous3221033977483181779webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)&#10;"><![CDATA[Given I am on a bundled product page........................................failed
+And the product is in stock.................................................skipped
+Then Price as configured, editable quantity field, and Add to Cart button should be displayed.skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+Command duration or timeout: 30.29 seconds
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=MAC, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=b802b2c6-28b3-45f3-8ad3-dd69351fce24, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b802b2c6-28b3-45f3-8ad3-dd69351fce24
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.BundledProductStepDefinitions.i_am_on_a_bundled_product_page(BundledProductStepDefinitions.java:42)
+	at ✽.Given I am on a bundled product page(BundledProductSMokeTest.feature:9)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:125)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.BundledProductStepDefinitions.i_am_on_a_bundled_product_page(BundledProductStepDefinitions.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.86', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/anonymous3221033977483181779webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/anonymous3221033977483181779webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/anonymous3221033977483181779webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/anonymous3221033977483181779webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+]]></failure>
+</testcase>
+<testcase classname="Smoke test to make sure bundled product page is working" name="Configuring child product of bundled product" time="4.651799">
+<system-out><![CDATA[Given I am on a bundled product page........................................passed
+And the child product of the bundled product is configurable................passed
+When I configure the child product to my liking.............................passed
+Then price as configured and availability should update accordingly.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke test to make sure bundled product page is working" name="Adding bundled product to cart" time="8.099773">
+<system-out><![CDATA[Given I am on a bundled product page........................................passed
+And my configuration of the bundled product is in stock.....................passed
+When I click the Add to Cart button.........................................passed
+Then product should be added to my cart.....................................passed
+And a page notification should be displayed saying product successfully added to cart.passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to test static content category pages" name="Navigating to static content category page" time="2.987396">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+When I select a category with static content from the main navigation.......passed
+Then I should be directed to that category page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to test static content category pages" name="Navigating to subcategory pages from static content category page" time="13.007079">
+<system-out><![CDATA[Given I am on a static content category page................................passed
+When I select a subcategory image...........................................passed
+Then I should be directed to that subcategory...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure a basic category page works" name="Navigating to Category product page from home page" time="4.6361">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+When I select a category with product from the main navigation..............passed
+Then I should be directed to that category page.............................passed
+And the category page should have product on it.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure a basic category page works" name="Navigating to Product detail page from Category page" time="5.649124">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+Given that I am on a category page with product.............................passed
+When I select a product Image/Name..........................................passed
+Then I should be directed to that product’s detail page.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure a basic category page works" name="Adding simple product to cart on category page" time="8.051974">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+Given that I am on a category page with product.............................passed
+And there is simple product on the page.....................................passed
+When I click the add to cart button.........................................passed
+Then Product is added to cart...............................................passed
+And page notification displays saying product was added to cart.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke test to make sure home logo is working" name="Clicking company logo image" time="5.676783">
+<system-out><![CDATA[Given I am on any page on the site..........................................passed
+When I click the company logo...............................................passed
+Then I am taken to site homepage............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure compare function is working" name="Adding product to compare list" time="22.223368">
+<system-out><![CDATA[Given Compare function is enabled...........................................passed
+Given I am logged in........................................................passed
+And I am on product detail page.............................................passed
+When I click on the Add to Compare link.....................................passed
+Then a page notification should be displayed saying product was added to comparison list.passed
+And that product should be added to comparison list.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure compare function is working" name="Viewing comparison list" time="35.934044">
+<system-out><![CDATA[Given Compare function is enabled...........................................passed
+Given I am logged in........................................................passed
+And I am on a category page.................................................passed
+And I have product in my comparison list....................................passed
+When I click the compare button.............................................passed
+Then Comparison page should be displayed with products in my comparison list.passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure compare function is working" name="Removing product from compare list" time="10.632597">
+<system-out><![CDATA[Given Compare function is enabled...........................................passed
+Given I am logged in........................................................passed
+And I want to remove product................................................passed
+When I click on the Clear All link under compare products section...........passed
+Then All products are removed from compare section..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure configurable product page works" name="I am on a configurable product page" time="4.6289">
+<system-out><![CDATA[Given I am on a configurable product page...................................passed
+Then product name, price, and availability should be displayed..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure configurable product page works" name="Configuring configurable product" time="5.157377">
+<system-out><![CDATA[Given I am on a configurable product page...................................passed
+When I configure the product to my liking...................................passed
+Then image, availability, and price should update accordingly...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure configurable product page works" name="Configurable product is in stock" time="4.982269">
+<system-out><![CDATA[Given I am on a configurable product page...................................passed
+And the product is in stock.................................................passed
+Then Add to Cart button should be displayed.................................passed
+And editable quantity field should be displayed.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure configurable product page works" name="Adding configurable product to cart" time="8.857746">
+<system-out><![CDATA[Given I am on a configurable product page...................................passed
+And configuration of configurable product is in stock.......................passed
+When I click the Add to Cart button.........................................passed
+Then product should be added to my cart.....................................passed
+And a page notification should be displayed saying product successfully added to cart.passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure contact us is working" name="Navigating to Contact page" time="2.617917">
+<system-out><![CDATA[Given I am on homepage......................................................passed
+When I click on the Contact link............................................passed
+Then I am taken to contact page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure contact us is working" name="Submitting contact form" time="4.295602">
+<system-out><![CDATA[Given I am on Contact page..................................................passed
+When I fill out all the contact fields correctly............................passed
+And press the Submit button.................................................passed
+Then contact form is successfully submitted.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure crumb tray is functioning" name="Click on links in crumb tray" time="13.303369">
+<system-out><![CDATA[Given I am on any page on the site..........................................passed
+When I click a link in the crumb tray.......................................passed
+Then I am taken to the correct page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to test reviews functionality" name="Product has reviews" time="4.630378">
+<system-out><![CDATA[Given I am on a product detail page with at least one review................passed
+Then number of review(s) and Add Your Review links should be displayed......passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to test reviews functionality" name="Product does not have reviews" time="65.349886">
+<system-out><![CDATA[Given I am on a product detail page with no reviews.........................passed
+Then number of review(s) and Add Your Review links should not be displayed..passed
+And Be the first to review this product link should be displayed under Reviews tab.passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to test reviews functionality" name="Navigating to review page when product has at least one review" time="6.384194">
+<system-out><![CDATA[Given I am on a product detail page with at least one review................passed
+When I click on the number of Review(s) link................................passed
+Then I should be directed to product review page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to test reviews functionality" name="Adding your review when product has at least one review" time="6.42923">
+<system-out><![CDATA[Given I am on a product detail page with at least one review................passed
+When I click on the Add Your Review link....................................passed
+Then I should be directed to product review page............................passed
+And anchored to the write your review section...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to test reviews functionality" name="Adding your review when product has no reviews" time="36.659399">
+<system-out><![CDATA[Given I am on a product detail page with no reviews.........................passed
+When I click on the Be the first to review this product link under the Reviews tab.passed
+Then I should be directed to product review page............................passed
+And anchored to the write your review section...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to test reviews functionality" name="Writing a review" time="9.245749">
+<system-out><![CDATA[Given I am on review page...................................................passed
+And I want to write a review................................................passed
+When I fill out the review sections.........................................passed
+And press Submit Review button..............................................passed
+Then my review is submitted and saved.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure customer service page is functioning" name="Navigating to customer service page" time="1.733009">
+<system-out><![CDATA[Given client website has a customer service page............................passed
+When I click on the customer service link...................................passed
+Then I am taken to the customer service page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketesting to make sure email to a friend is working" name="Navigating to Email to a friend page" time="5.317493">
+<system-out><![CDATA[Given I am on a product detail page.........................................passed
+When I click on the Email to a Friend icon..................................passed
+Then I should be directed to Email to a Friend page.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketesting to make sure email to a friend is working" name="Emailing link to a friend" time="9.765501">
+<system-out><![CDATA[Given I am on Email to a Friend page........................................passed
+When I fill out required fields.............................................passed
+And I click Send Email button...............................................passed
+Then Email should be sent successfully......................................passed
+And I should be back on previous product detail page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketesting to make sure email to a friend is working" name="Adding and removing recipients" time="37.56138">
+<system-out><![CDATA[Given I am on Email to a Friend page........................................passed
+When I click the Add Recipient button.......................................passed
+Then Another recipient field is added.......................................passed
+When I click on the remove recipient link...................................passed
+Then recipient is removed...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketesting to make sure email to a friend is working" name="Going back to product detail page" time="8.177495">
+<system-out><![CDATA[Given I am on Email to a Friend page........................................passed
+When I click the back link..................................................passed
+Then I should be back on previous product detail page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing for Gift Card page" name="Adding gift card to cart" time="11.1903">
+<system-out><![CDATA[Given I am on a gift card page..............................................passed
+When I select the Gift Card I want..........................................passed
+And I fill out all the required fields......................................passed
+And click the Add to Cart button............................................passed
+Then product should be added to my cart.....................................passed
+And a page notification should be displayed saying product successfully added to cart.passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure grouped product page works" name="I am on a grouped product page" time="4.630346">
+<system-out><![CDATA[Given that I am on a grouped product page...................................passed
+Then grouped product name, price, and availability should be displayed......passed
+And child product individual name, price, and availability should be displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure grouped product page works" name="I am on a grouped product page and child product is in stock" time="4.634539">
+<system-out><![CDATA[Given that I am on a grouped product page...................................passed
+And all child product is in stock...........................................passed
+Then Add to Cart button should be displayed.................................passed
+And editable quantity fields should be displayed............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure grouped product page works" name="Adding grouped product to cart" time="8.402112">
+<system-out><![CDATA[Given that I am on a grouped product page...................................passed
+And all child product is in stock...........................................passed
+When I edit the quantity fields.............................................passed
+When I click the Add to Cart button.........................................passed
+Then grouped product should be added to my cart.............................passed
+And a page notification should be displayed saying product successfully added to cart.passed
+]]></system-out>
+</testcase>
+<testcase classname="Guest Checkout Smoke Test" name="Navigating to Checkout page" time="21.027782">
+<system-out><![CDATA[Given I am not a registered user............................................passed
+Given I am on the homepage..................................................passed
+Given I have product in my cart.............................................passed
+When I click on the shopping cart icon......................................passed
+And click on the checkout button............................................passed
+Then I am taken to Checkout page............................................passed
+And options are displayed to checkout as guest, register and checkout, or login as a returning customer..passed
+]]></system-out>
+</testcase>
+<testcase classname="Guest Checkout Smoke Test" name="Checking out as guest" time="62.053434">
+<system-out><![CDATA[Given I am not a registered user............................................passed
+Given I am on the homepage..................................................passed
+Given I have product in my cart.............................................passed
+And I am on checkout page...................................................passed
+When I checkout as a guest..................................................passed
+Then I am able to complete my purchase......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure login page is working" name="Navigating to Login or Create an Account page" time="2.716184">
+<system-out><![CDATA[Given I am on client website................................................passed
+And I am not logged into an account.........................................passed
+When I click on login/register link.........................................passed
+Then I am taken to login or create an Account page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure login page is working" name="Logging in" time="4.909784">
+<system-out><![CDATA[Given I am on Login or Create an Account page...............................passed
+And I am a registered user..................................................passed
+When I put in my credentials................................................passed
+And click on the login button...............................................passed
+Then I am able to successfully log in.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure the Main Navigation works" name="Hovering over Main Navigation links" time="1.907386">
+<system-out><![CDATA[Given I am on a page where Main Navigation is visible.......................passed
+When I hover over main navigation links.....................................passed
+Then corresponding menu dropdown displays...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure the Main Navigation works" name="clicking on category link from main navigation" time="14.344088">
+<system-out><![CDATA[Given I am on a page where Main Navigation is visible.......................passed
+When I click on product category link.......................................passed
+Then I am taken to product category page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure the Main Navigation works" name="clicking on subcategory link from main navigation" time="44.384144">
+<system-out><![CDATA[Given I am on a page where Main Navigation is visible.......................passed
+When I click on product subcategory link....................................passed
+Then I am taken to product subcategory page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure mini cart is functioning" name="Viewing mini cart" time="5.938576">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+Given mini cart function is enabled.........................................passed
+Given I am on any page of client website....................................passed
+When I click on the shopping cart icon......................................passed
+Then the mini cart should be displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure mini cart is functioning" name="Viewing mini cart with product" time="21.773672">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+Given mini cart function is enabled.........................................passed
+Given I am on any page of client website....................................passed
+And I have product in my cart...............................................passed
+When I click on the shopping cart icon......................................passed
+Then the mini cart should be displayed......................................passed
+And up to the last three items added to the cart should be displayed........passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure mini cart is functioning" name="Viewing mini cart without product" time="6.023312">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+Given mini cart function is enabled.........................................passed
+Given I am on any page of client website....................................passed
+And I don’t have product in my cart.........................................passed
+When I click on the shopping cart icon......................................passed
+Then the mini cart should be displayed......................................passed
+And a message stating you have no items in your cart should be displayed....passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure mini cart is functioning" name="Editing items in mini cart" time="20.254491">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+Given mini cart function is enabled.........................................passed
+Given I have product in my cart.............................................passed
+And I am in mini cart.......................................................passed
+When I click on the edit link for one of the products.......................passed
+Then I am taken to product detail page......................................passed
+And an update cart button is displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure mini cart is functioning" name="Removing items in mini cart" time="49.499262">
+<system-out><![CDATA[Given I am on the homepage..................................................passed
+Given mini cart function is enabled.........................................passed
+Given I have product in my cart.............................................passed
+And I am in mini cart.......................................................passed
+When I click on the remove item link........................................passed
+And click on the OK button in the following alert...........................passed
+Then product is removed from my cart........................................passed
+And a message stating product was successfully removed is displayed.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure my account is functioning" name="Navigating to my account page" time="9.536198">
+<system-out><![CDATA[Given I am a registered user................................................passed
+And I am logged in..........................................................passed
+When I click on the My Account link.........................................passed
+Then I am taken to the My Account page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure my account is functioning" name="Editing contact information" time="14.43131">
+<system-out><![CDATA[Given I am logged in........................................................passed
+And I am on My Account Dashboard page.......................................passed
+And I want to Edit my contact information...................................passed
+When I click on the edit contact link.......................................passed
+Then I am able to successfully edit my contact information..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure my account is functioning" name="Editing address information" time="16.169309">
+<system-out><![CDATA[Given I am logged in........................................................passed
+And I am on My Account Dashboard page.......................................passed
+And I want to Edit my address information...................................passed
+When I click on the edit address link.......................................passed
+Then I am able to successfully edit my address information..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke test to make sure newsletter function is working" name="Subscribing to newsletter" time="3.443845">
+<system-out><![CDATA[Given I am on client website................................................passed
+And I want to subscribe to their newsletter.................................passed
+When I type in my email address.............................................passed
+And click the subscribe button..............................................passed
+Then I am successfully subscribed to their newsletter.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure orders page is functioning" name="Navigating to Orders page" time="9.691492">
+<system-out><![CDATA[Given I am logged in........................................................passed
+And I am on my account page.................................................passed
+When I click on the orders link.............................................passed
+Then I am taken to my orders page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure orders page is functioning" name="I have not placed any orders" time="9.882028">
+<system-out><![CDATA[Given I am logged in........................................................passed
+And I am on my orders page..................................................passed
+And I have not placed any orders............................................passed
+Then a message displays saying I have not placed any orders.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure orders page is functioning" name="Viewing order" time="9.706354">
+<system-out><![CDATA[Given I am logged in........................................................passed
+And I am on my orders page..................................................passed
+And I have placed an order..................................................passed
+When I click on the View Order Link.........................................passed
+Then I am taken to order detail page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure page not found is functioning" name="User is on page with invalid URL" time="2.362219">
+<system-out><![CDATA[Given I am on client website................................................passed
+When I type in invalid URL for website......................................passed
+And press enter.............................................................passed
+Then I am taken to Page not found page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure page not found is functioning" name="Navigating to homepage from page not found" time="2.625948">
+<system-out><![CDATA[Given I am on Page not found page...........................................passed
+When I click the homepage link..............................................passed
+Then I am taken to homepage.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="smoketest to make sure privacy policy page is functioning" name="Navigating to privacy policy page" time="1.863255">
+<system-out><![CDATA[Given client website has a privacy policy page..............................passed
+When I click on the privacy policy link.....................................passed
+Then I am taken to the privacy policy page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketesting to test registered user checkout" name="Navigating to Checkout page when I’m a registered user and logged in" time="61.332884">
+<system-out><![CDATA[Given I am a registered user................................................passed
+Given I am logged in........................................................passed
+And I have product in my cart...............................................passed
+When I click on the shopping cart icon......................................passed
+And click on the checkout button............................................passed
+Then I am taken to Checkout page............................................passed
+And There is no option for guest checkout...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketesting to test registered user checkout" name="Navigating to Checkout page when I’m a registered user and not logged in" time="19.49182">
+<system-out><![CDATA[Given I am a registered user................................................passed
+Given I am not logged in....................................................passed
+And I have product in my cart...............................................passed
+When I click on the shopping cart icon......................................passed
+And click on the checkout button............................................passed
+Then I am taken to Checkout page............................................passed
+And options are displayed to checkout as guest, register and checkout, or login as a returning customer..passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketesting to test registered user checkout" name="Checking out as a registered user" time="43.294951">
+<system-out><![CDATA[Given I am a registered user................................................passed
+Given I am logged in........................................................passed
+And I have product in my cart...............................................passed
+When I checkout as a registered user........................................passed
+Then I am able to complete my purchase as a registered user.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure search works" name="Searching for product" time="3.937958">
+<system-out><![CDATA[Given you are on any page in the website....................................passed
+When I search for "BASKETBALL"..............................................passed
+Then search results page should be displayed with related product...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure search works" name="Navigating to Product detail page from search results page" time="5.151572">
+<system-out><![CDATA[Given that I am on a search results page....................................passed
+When I select a product Image/Name..........................................passed
+Then I should be directed to that product’s detail page.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke testing to make sure search works" name="Adding simple product to cart on search results page" time="8.37067">
+<system-out><![CDATA[Given that I am on a search results page....................................passed
+And there is simple product on the page.....................................passed
+When I click the add to cart button.........................................passed
+Then page notification displays saying product was added to cart............passed
+And Product is added to cart................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure search terms page is functioning" name="Navigating to search terms page" time="2.649115">
+<system-out><![CDATA[Given I am on home page.....................................................passed
+When I Click on the search terms link.......................................passed
+Then I am taken to search terms page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure search terms page is functioning" name="Clicking on a search term" time="4.191208">
+<system-out><![CDATA[Given I am on search terms page.............................................passed
+When I click on a search term...............................................passed
+Then search results page for that search term is displayed..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure shopping cart is working" name="Navigating to shopping cart page" time="22.925634">
+<system-out><![CDATA[Given I have product in my cart.............................................passed
+And I am on any page in client website......................................passed
+When I click on the shopping cart icon......................................passed
+And click on the view shopping cart link....................................passed
+Then I am taken to shopping cart page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure shopping cart is working" name="Proceeding to checkout from shopping cart page" time="21.191057">
+<system-out><![CDATA[Given I have product in my cart.............................................passed
+And I am on shopping cart page..............................................passed
+When I click on the Proceed to Checkout button..............................passed
+Then I am taken to the Checkout page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure shopping cart is working" name="Editing item in shopping cart" time="21.242925">
+<system-out><![CDATA[Given I have product in my cart.............................................passed
+And I am on shopping cart page..............................................passed
+When I click on the edit link for a product on the shopping cart page.......passed
+Then I am taken to product detail page......................................passed
+And an update cart button is displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure shopping cart is working" name="Removing items in shopping cart" time="57.510642">
+<system-out><![CDATA[Given I have product in my cart.............................................passed
+And I am on shopping cart page..............................................passed
+When I click on the remove item icon........................................passed
+Then product is removed from shopping cart page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure shopping cart is working" name="Emptying cart" time="51.356513">
+<system-out><![CDATA[Given I have product in my cart.............................................passed
+And I am on shopping cart page..............................................passed
+When I click on the Empty Cart link.........................................passed
+Then all product should be removed from my cart.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure shopping cart is working" name="Updating shopping cart" time="27.575545">
+<system-out><![CDATA[Given I have product in my cart.............................................passed
+And I am on shopping cart page..............................................passed
+When I edit the quantity of a product.......................................passed
+And click on the update button..............................................passed
+And The the product is updated accordingly..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure shopping cart is working" name="Continue shopping" time="20.74159">
+<system-out><![CDATA[Given I have product in my cart.............................................passed
+And I am on shopping cart page..............................................passed
+And I want to continue shopping.............................................passed
+When I click on the Continue Shopping link..................................passed
+Then I am directed to site homepage.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke tests to make sure shopping cart is working" name="Verifying Price" time="19.791479">
+<system-out><![CDATA[Given I have product in my cart.............................................passed
+And I am on shopping cart page..............................................passed
+Then All subtotal and total prices are correct..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="smoke tests to test simple product page" name="I am on a simple product page" time="4.078759">
+<system-out><![CDATA[Given I am on a simple product page.........................................passed
+Then product name, price, and availability should be displayed..............passed
+]]></system-out>
+</testcase>
+<testcase classname="smoke tests to test simple product page" name="I am on simple product page and product is in stock" time="4.188683">
+<system-out><![CDATA[Given I am on a simple product page.........................................passed
+And that product is in stock................................................passed
+Then Add to Cart button should be displayed.................................passed
+And editable quantity field should be displayed.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="smoke tests to test simple product page" name="Adding simple product to cart" time="6.840573">
+<system-out><![CDATA[Given I am on a simple product page.........................................passed
+And that product is in stock................................................passed
+When I click the Add to Cart button.........................................passed
+Then a page notification should be displayed saying product successfully added to cart.passed
+And product should be added to my cart......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure sitemap is functioning" name="Navigating to site map" time="2.835338">
+<system-out><![CDATA[Given there is a site map page..............................................passed
+Given I am on homepage......................................................passed
+And there is a site map link................................................passed
+When I click on the site map link...........................................passed
+Then I am taken to site map.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketest to make sure sitemap is functioning" name="Navigation to page from site map" time="92.939491">
+<system-out><![CDATA[Given there is a site map page..............................................passed
+Given I am on site map......................................................passed
+When I click a link on the site map.........................................passed
+Then I am taken to the correct page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketests to test subcategory page" name="Navigating to subcategory page" time="13.06024">
+<system-out><![CDATA[Given I am on a category page...............................................passed
+When I click on a subcategory link..........................................passed
+Then I should be directed to corresponding subcategory page.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketests to test subcategory page" name="Navigating to Product detail page from subcategory page" time="6.212641">
+<system-out><![CDATA[Given that I am on a subcategory page.......................................passed
+When I select a product Image/Name from the subcategory page................passed
+Then I should be directed to that product’s detail page.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoketests to test subcategory page" name="Adding simple product to cart on subcategory page" time="6.813227">
+<system-out><![CDATA[Given that I am on a subcategory page.......................................passed
+And there is simple product on the subcategory page.........................passed
+When I click the add to cart button.........................................passed
+Then Product is added to cart...............................................passed
+And page notification displays saying product was added to cart.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke test to make sure wishlist is working properly" name="Adding to wishlist when user is not logged in" time="5.710793">
+<system-out><![CDATA[Given I am on a product detail page.........................................passed
+And I am not logged in......................................................passed
+When I click on the Add to Wishlist link....................................passed
+Then I am directed to login/create an account page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Smoke test to make sure wishlist is working properly" name="Adding to wishlist when user is logged in" time="13.839447">
+<system-out><![CDATA[Given I am logged in........................................................passed
+And I am on Category page...................................................passed
+When I click on the Add to Wishlist link under a product....................passed
+Then I am directed to my wishlist page......................................passed
+And that product is added to my wishlist....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

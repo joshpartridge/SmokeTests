@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="6" failures="0" hostname="DCSA-PARTRIDGE-MAC.local" name="DemoSite.SmokeTests.cukerunner" skipped="8" tests="22" time="105.962" timestamp="2015-08-12T14:58:23">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="56535c85ff798d6c" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="org.jenkins-ci" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/" />
+    <property name="env.PWD" value="/Users/joshpartridge/Documents/workspace/SmokeTests" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/Shared/Jenkins/apache-ant" />
+    <property name="java.runtime.version" value="1.8.0_25-b17" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#76" />
+    <property name="env.DISPLAY" value=":1" />
+    <property name="user.name" value="jenkins" />
+    <property name="env.USER" value="jenkins" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0xF7:0x0:0x0" />
+    <property name="env.PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="DISPLAY" value=":1" />
+    <property name="ant.project.name" value="SmokeTests" />
+    <property name="java.version" value="1.8.0_25" />
+    <property name="user.timezone" value="America/Toronto" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="0" />
+    <property name="ECLIPSE_HOME" value="../../../Downloads/EclipseMarsEE.app/Contents/Eclipse/" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="env.BUILD_NUMBER" value="76" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="jenkins" />
+    <property name="ant.file" value="/Users/joshpartridge/Documents/workspace/SmokeTests/build.xml" />
+    <property name="os.version" value="10.10.3" />
+    <property name="env.HUDSON_COOKIE" value="23068350-54de-4f49-a67f-b7b065465ad8" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.25-b02" />
+    <property name="ant.library.dir" value="/Users/Shared/Jenkins/apache-ant/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JOB_NAME" value="SmokeTests" />
+    <property name="env.JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="env.HUDSON_URL" value="http://localhost:8080/" />
+    <property name="env.BUILD_TAG" value="jenkins-SmokeTests-76" />
+    <property name="env.JAVA_MAIN_CLASS_579" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="user.home" value="/Users/Shared/Jenkins" />
+    <property name="target" value="1.5" />
+    <property name="env.JENKINS_HOME" value="/Users/Shared/Jenkins/Home" />
+    <property name="env.JOB_URL" value="http://localhost:8080/job/SmokeTests/" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/Shared/Jenkins/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.HUDSON_HOME" value="/Users/Shared/Jenkins/Home" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="ant.file.SmokeTests" value="/Users/joshpartridge/Documents/workspace/SmokeTests/build.xml" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="56535c85ff798d6c" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="/Users/joshpartridge/Documents/workspace/SmokeTests/target/classes:/Users/joshpartridge/Documents/workspace/SmokeTests/target/test-classes:/Users/joshpartridge/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/joshpartridge/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-java/1.2.2/cucumber-java-1.2.2.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-core/1.2.2/cucumber-core-1.2.2.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-picocontainer/1.2.2/cucumber-picocontainer-1.2.2.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.3/cucumber-jvm-deps-1.0.3.jar:/Users/joshpartridge/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/joshpartridge/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-junit/1.2.2/cucumber-junit-1.2.2.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-java/2.45.0/selenium-java-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.45.0/selenium-chrome-driver-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.45.0/selenium-firefox-driver-2.45.0.jar:/Users/joshpartridge/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/joshpartridge/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.45.0/selenium-ie-driver-2.45.0.jar:/Users/joshpartridge/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/joshpartridge/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.45.0/selenium-safari-driver-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-support/2.45.0/selenium-support-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/joshpartridge/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.45.0/selenium-leg-rc-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/testng/testng/6.8.8/testng-6.8.8.jar:/Users/joshpartridge/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/joshpartridge/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/joshpartridge/.m2/repository/io/appium/java-client/2.1.0/java-client-2.1.0.jar:/Users/joshpartridge/.m2/repository/com/google/guava/guava/17.0/guava-17.0.jar:/Users/joshpartridge/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/joshpartridge/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/joshpartridge/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/joshpartridge/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/joshpartridge/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/Users/joshpartridge/.m2/repository/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar:/Users/joshpartridge/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/Users/joshpartridge/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/joshpartridge/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/joshpartridge/.m2/repository/com/codeborne/phantomjsdriver/1.2.1/phantomjsdriver-1.2.1.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.44.0/selenium-remote-driver-2.44.0.jar:/Users/joshpartridge/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-api/2.44.0/selenium-api-2.44.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.47.1/selenium-htmlunit-driver-2.47.1.jar:/Users/joshpartridge/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.17/htmlunit-2.17.jar:/Users/joshpartridge/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/joshpartridge/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/joshpartridge/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/joshpartridge/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/joshpartridge/.m2/repository/org/apache/httpcomponents/httpmime/4.4.1/httpmime-4.4.1.jar:/Users/joshpartridge/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/joshpartridge/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/joshpartridge/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/joshpartridge/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/joshpartridge/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar:/Users/joshpartridge/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.11.v20150529/websocket-client-9.2.11.v20150529.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/jetty-util/9.2.11.v20150529/jetty-util-9.2.11.v20150529.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/jetty-io/9.2.11.v20150529/jetty-io-9.2.11.v20150529.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.11.v20150529/websocket-common-9.2.11.v20150529.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.11.v20150529/websocket-api-9.2.11.v20150529.jar:/Users/Shared/Jenkins/apache-ant/lib/junit.jar:/Users/Shared/Jenkins/apache-ant/lib/ant-launcher.jar:/Users/Shared/Jenkins/apache-ant/lib/ant.jar:/Users/Shared/Jenkins/apache-ant/lib/ant-junit.jar:/Users/Shared/Jenkins/apache-ant/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DemoSite.SmokeTests.cukerunner filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/joshpartridge/Documents/workspace/SmokeTests/junit/TEST-DemoSite.SmokeTests.cukerunner.xml crashfile=/Users/joshpartridge/Documents/workspace/SmokeTests/junitvmwatcher3899857273262224068.properties propsfile=/Users/joshpartridge/Documents/workspace/SmokeTests/junit5367233050106460969.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="env.EXECUTOR_NUMBER" value="0" />
+    <property name="ant.file.type.SmokeTests" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.HOME" value="/Users/Shared/Jenkins" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="java.awt.headless" value="true" />
+    <property name="env.JAVA_MAIN_CLASS_54" value="Main" />
+    <property name="env.ANT_HOME" value="/Users/Shared/Jenkins/apache-ant" />
+    <property name="java.io.tmpdir" value="/var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/" />
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/SmokeTests/76/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/Shared/Jenkins/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="env.BUILD_ID" value="76" />
+    <property name="user.dir" value="/Users/joshpartridge/Documents/workspace/SmokeTests" />
+    <property name="env.com.apple.java.jvmTask" value="CommandLine" />
+    <property name="env.JAVA_ARCH" value="x86_64" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="env.JENKINS_URL" value="http://localhost:8080/" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/joshpartridge/Documents/workspace/SmokeTests" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/Users/Shared/Jenkins/apache-ant/lib/ant.jar" />
+    <property name="source" value="1.5" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.WORKSPACE" value="/Users/Shared/Jenkins/Home/jobs/SmokeTests/workspace" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="SmokeTests" />
+    <property name="env.NODE_LABELS" value="master" />
+  </properties>
+  <testcase classname="Scenario: I am on a simple product page" name="Given I am on a simple product page" time="0.004">
+    <error message="Element is not currently visible and so may not be interacted with&#xa;Command duration or timeout: 30.14 seconds&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;&#xa;System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: ccf9ee03-a37a-1d47-8810-0be993f575ab" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.14 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ccf9ee03-a37a-1d47-8810-0be993f575ab
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+</error>
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="Scenario: I am on a simple product page" time="36.214">
+    <error message="Element is not currently visible and so may not be interacted with&#xa;Command duration or timeout: 30.14 seconds&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;&#xa;System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: ccf9ee03-a37a-1d47-8810-0be993f575ab" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.14 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ccf9ee03-a37a-1d47-8810-0be993f575ab
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+</error>
+  </testcase>
+  <testcase classname="Scenario: I am on a simple product page" name="Then product name, price, and availability should be displayed" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="Scenario: I am on a simple product page" time="36.316" />
+  <testcase classname="Scenario: I am on simple product page and product is in stock" name="Given I am on a simple product page" time="0.002">
+    <error message="Element is not currently visible and so may not be interacted with&#xa;Command duration or timeout: 30.10 seconds&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;&#xa;System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: 681e0777-194a-1745-b9c6-bbc4ad559eff" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.10 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 681e0777-194a-1745-b9c6-bbc4ad559eff
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+</error>
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="Scenario: I am on simple product page and product is in stock" time="34.629">
+    <error message="Element is not currently visible and so may not be interacted with&#xa;Command duration or timeout: 30.10 seconds&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;&#xa;System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: 681e0777-194a-1745-b9c6-bbc4ad559eff" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.10 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 681e0777-194a-1745-b9c6-bbc4ad559eff
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+</error>
+  </testcase>
+  <testcase classname="Scenario: I am on simple product page and product is in stock" name="And that product is in stock" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="Scenario: I am on simple product page and product is in stock" name="Then Add to Cart button should be displayed" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="Scenario: I am on simple product page and product is in stock" name="And editable quantity field should be displayed" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="Scenario: I am on simple product page and product is in stock" time="34.733" />
+  <testcase classname="Scenario: Adding simple product to cart" name="Given I am on a simple product page" time="0.0">
+    <error message="Element is not currently visible and so may not be interacted with&#xa;Command duration or timeout: 30.09 seconds&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;&#xa;System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: 2f208705-6da1-9640-889d-7ec3354c00a9" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.09 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2f208705-6da1-9640-889d-7ec3354c00a9
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+</error>
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Adding simple product to cart" time="34.671">
+    <error message="Element is not currently visible and so may not be interacted with&#xa;Command duration or timeout: 30.09 seconds&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;&#xa;System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: 2f208705-6da1-9640-889d-7ec3354c00a9" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.09 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2f208705-6da1-9640-889d-7ec3354c00a9
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DCSA-PARTRIDGE-MAC.local&apos;, ip: &apos;10.1.255.113&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Adding simple product to cart" name="And that product is in stock" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="Scenario: Adding simple product to cart" name="When I click the Add to Cart button" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="Scenario: Adding simple product to cart" name="Then a page notification should be displayed saying product successfully added to cart" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="Scenario: Adding simple product to cart" name="And product should be added to my cart" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Adding simple product to cart" time="34.778" />
+  <system-out><![CDATA[Feature: smoke tests to test simple product page
+
+  Background:                           [90m# test/resource/SimpleProductSmokeTest.feature:3[0m
+    [31mGiven [0m[31mI am on a simple product page[0m [90m# SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page()[0m
+      [31morg.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Command duration or timeout: 30.14 seconds
+      Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+      System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+      Session ID: ccf9ee03-a37a-1d47-8810-0be993f575ab
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+      	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+      	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+      Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+      System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+      Driver info: driver.version: unknown
+      	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+      	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+      	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+      	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+      [0m
+
+  @test
+  Scenario: I am on a simple product page                          [90m# test/resource/SimpleProductSmokeTest.feature:7[0m
+    [36mThen [0m[36mproduct name, price, and availability should be displayed[0m [90m# SimpleProductPageStepDefinitions.product_name_price_and_availability_should_be_displayed()[0m
+
+  Background:                           [90m# test/resource/SimpleProductSmokeTest.feature:3[0m
+    [31mGiven [0m[31mI am on a simple product page[0m [90m# SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page()[0m
+      [31morg.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Command duration or timeout: 30.10 seconds
+      Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+      System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+      Session ID: 681e0777-194a-1745-b9c6-bbc4ad559eff
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+      	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+      	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+      Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+      System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+      Driver info: driver.version: unknown
+      	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+      	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+      	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+      	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+      [0m
+
+  @test
+  Scenario: I am on simple product page and product is in stock [90m# test/resource/SimpleProductSmokeTest.feature:11[0m
+    [36mAnd [0m[36mthat product is in stock[0m                                [90m# SimpleProductPageStepDefinitions.that_product_is_in_stock()[0m
+    [36mThen [0m[36mAdd to Cart button should be displayed[0m                 [90m# SimpleProductPageStepDefinitions.add_to_Cart_button_should_be_displayed()[0m
+    [36mAnd [0m[36meditable quantity field should be displayed[0m             [90m# SimpleProductPageStepDefinitions.editable_quantity_field_should_be_displayed()[0m
+
+  Background:                           [90m# test/resource/SimpleProductSmokeTest.feature:3[0m
+    [31mGiven [0m[31mI am on a simple product page[0m [90m# SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page()[0m
+      [31morg.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Command duration or timeout: 30.09 seconds
+      Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+      System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+      Session ID: 2f208705-6da1-9640-889d-7ec3354c00a9
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+      	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+      	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+      Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+      Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+      System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+      Driver info: driver.version: unknown
+      	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+      	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+      	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+      	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+      [0m
+
+  @test
+  Scenario: Adding simple product to cart                                                  [90m# test/resource/SimpleProductSmokeTest.feature:17[0m
+    [36mAnd [0m[36mthat product is in stock[0m                                                           [90m# SimpleProductPageStepDefinitions.that_product_is_in_stock()[0m
+    [36mWhen [0m[36mI click the Add to Cart button[0m                                                    [90m# SimpleProductPageStepDefinitions.i_click_the_Add_to_Cart_button()[0m
+    [36mThen [0m[36ma page notification should be displayed saying product successfully added to cart[0m [90m# SimpleProductPageStepDefinitions.a_page_notification_should_be_displayed_saying_product_successfully_added_to_cart()[0m
+    [36mAnd [0m[36mproduct should be added to my cart[0m                                                 [90m# SimpleProductPageStepDefinitions.product_should_be_added_to_my_cart()[0m
+
+3 Scenarios ([31m3 failed[0m)
+11 Steps ([31m3 failed[0m, [36m8 skipped[0m)
+1m45.748s
+
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.14 seconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ccf9ee03-a37a-1d47-8810-0be993f575ab
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous85134726151926746webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.10 seconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 681e0777-194a-1745-b9c6-bbc4ad559eff
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous3232517477456344052webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.09 seconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2f208705-6da1-9640-889d-7ec3354c00a9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at DemoSite.SmokeTests.SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page(SimpleProductPageStepDefinitions.java:45)
+	at ✽.Given I am on a simple product page(test/resource/SimpleProductSmokeTest.feature:4)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DCSA-PARTRIDGE-MAC.local', ip: '10.1.255.113', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/qf/cfs16kkj6j5gw2ghyj_9br2c00007q/T/anonymous1896520729589031819webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

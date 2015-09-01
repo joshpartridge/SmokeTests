@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="DCSA-PARTRIDGE-MAC.local" id="0" name="cukerunner" package="DemoSite.SmokeTests" skipped="0" tests="22" time="13.478" timestamp="2015-08-11T16:07:30">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="env.XPC_SERVICE_NAME" value="org.eclipse.platform.ide.125844" />
+
+          <property name="eclipse.pdebuild.templates" value="/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates//" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.name" value="Mac OS X" />
+
+          <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes" />
+
+          <property name="env.TMPDIR" value="/var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="java.runtime.version" value="1.8.0_25-b17" />
+
+          <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.iC9eNjH3xo/Render" />
+
+          <property name="user.name" value="joshpartridge" />
+
+          <property name="env.USER" value="joshpartridge" />
+
+          <property name="env.SHELL" value="/bin/bash" />
+
+          <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x0" />
+
+          <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="env.XPC_FLAGS" value="0x0" />
+
+          <property name="ant.project.name" value="SmokeTests" />
+
+          <property name="java.version" value="1.8.0_25" />
+
+          <property name="user.timezone" value="America/Toronto" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ECLIPSE_HOME" value="../../../Downloads/EclipseMarsEE.app/Contents/Eclipse/" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre" />
+
+          <property name="env.JAVA_STARTED_ON_FIRST_THREAD_419" value="1" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.LOGNAME" value="joshpartridge" />
+
+          <property name="ant.file" value="/Users/joshpartridge/Documents/workspace/SmokeTests/build.xml" />
+
+          <property name="os.version" value="10.10.3" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="25.25-b02" />
+
+          <property name="ant.library.dir" value="/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+
+          <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+
+          <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="env.JAVA_MAIN_CLASS_1176" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+
+          <property name="eclipse.pdebuild.scripts" value="/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts//" />
+
+          <property name="user.home" value="/Users/joshpartridge" />
+
+          <property name="target" value="1.5" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/Users/joshpartridge/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="ant.file.SmokeTests" value="/Users/joshpartridge/Documents/workspace/SmokeTests/build.xml" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="gopherProxySet" value="false" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DemoSite.SmokeTests.cukerunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/joshpartridge/Documents/workspace/SmokeTests/junit/TEST-DemoSite.SmokeTests.cukerunner.xml crashfile=/Users/joshpartridge/Documents/workspace/SmokeTests/junitvmwatcher6967028459134567884.properties propsfile=/Users/joshpartridge/Documents/workspace/SmokeTests/junit7977433450958795730.properties" />
+
+          <property name="java.class.path" value="/Users/joshpartridge/Documents/workspace/SmokeTests/target/classes:/Users/joshpartridge/Documents/workspace/SmokeTests/target/test-classes:/Users/joshpartridge/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/joshpartridge/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-java/1.2.2/cucumber-java-1.2.2.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-core/1.2.2/cucumber-core-1.2.2.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-picocontainer/1.2.2/cucumber-picocontainer-1.2.2.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.3/cucumber-jvm-deps-1.0.3.jar:/Users/joshpartridge/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/joshpartridge/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/joshpartridge/.m2/repository/info/cukes/cucumber-junit/1.2.2/cucumber-junit-1.2.2.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-java/2.45.0/selenium-java-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.45.0/selenium-chrome-driver-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.45.0/selenium-firefox-driver-2.45.0.jar:/Users/joshpartridge/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.45.0/selenium-ie-driver-2.45.0.jar:/Users/joshpartridge/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.45.0/selenium-safari-driver-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-support/2.45.0/selenium-support-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/joshpartridge/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.45.0/selenium-leg-rc-2.45.0.jar:/Users/joshpartridge/.m2/repository/org/testng/testng/6.8.8/testng-6.8.8.jar:/Users/joshpartridge/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/joshpartridge/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/joshpartridge/.m2/repository/io/appium/java-client/2.1.0/java-client-2.1.0.jar:/Users/joshpartridge/.m2/repository/com/google/guava/guava/17.0/guava-17.0.jar:/Users/joshpartridge/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/joshpartridge/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/joshpartridge/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/joshpartridge/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/joshpartridge/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/Users/joshpartridge/.m2/repository/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar:/Users/joshpartridge/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/Users/joshpartridge/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/joshpartridge/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/joshpartridge/.m2/repository/com/codeborne/phantomjsdriver/1.2.1/phantomjsdriver-1.2.1.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.47.1/selenium-htmlunit-driver-2.47.1.jar:/Users/joshpartridge/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.17/htmlunit-2.17.jar:/Users/joshpartridge/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/joshpartridge/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/joshpartridge/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/joshpartridge/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/joshpartridge/.m2/repository/org/apache/httpcomponents/httpmime/4.4.1/httpmime-4.4.1.jar:/Users/joshpartridge/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/joshpartridge/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/joshpartridge/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/joshpartridge/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/joshpartridge/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar:/Users/joshpartridge/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.11.v20150529/websocket-client-9.2.11.v20150529.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/jetty-util/9.2.11.v20150529/jetty-util-9.2.11.v20150529.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/jetty-io/9.2.11.v20150529/jetty-io-9.2.11.v20150529.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.11.v20150529/websocket-common-9.2.11.v20150529.jar:/Users/joshpartridge/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.11.v20150529/websocket-api-9.2.11.v20150529.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.47.1/selenium-remote-driver-2.47.1.jar:/Users/joshpartridge/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-api/2.47.1/selenium-api-2.47.1.jar:/Users/joshpartridge/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/joshpartridge/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/joshpartridge/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/selenium-server/2.47.1/selenium-server-2.47.1.jar:/Users/joshpartridge/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar:/Users/joshpartridge/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar:/Users/joshpartridge/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/joshpartridge/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/jetty-repacked/7.6.1/jetty-repacked-7.6.1.jar:/Users/joshpartridge/.m2/repository/org/seleniumhq/selenium/jetty-rc-repacked/5/jetty-rc-repacked-5.jar:/Users/joshpartridge/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/joshpartridge/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-launcher.jar:/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant.jar:/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-junit.jar:/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="ant.file.type.SmokeTests" value="file" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.HOME" value="/Users/joshpartridge" />
+
+          <property name="env.ANT_HOME" value="/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="java.io.tmpdir" value="/var/folders/s6/rj7sq04n1j71qbdxw9wg5sgc0000gp/T/" />
+
+          <property name="eclipse.pdebuild.home" value="/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/.//" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.JAVA_STARTED_ON_FIRST_THREAD_1176" value="1" />
+
+          <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.1irIIoKhnI/Listeners" />
+
+          <property name="os.arch" value="x86_64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/Users/joshpartridge/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+
+          <property name="user.dir" value="/Users/joshpartridge/Documents/workspace/SmokeTests" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="/Users/joshpartridge/Documents/workspace/SmokeTests" />
+
+          <property name="env.APP_ICON_419" value="../Resources/Eclipse.icns" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="/Users/joshpartridge/Downloads/EclipseMarsEE.app/Contents/Eclipse/plugins/org.apache.ant_1.9.4.v201504302020/lib/ant.jar" />
+
+          <property name="source" value="1.5" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="SmokeTests,build,junitreport" />
+
+      </properties>
+
+      <testcase classname="Scenario: I am on a simple product page" name="Given I am on a simple product page" time="0.0" />
+
+      <testcase classname="Scenario: I am on a simple product page" name="Then product name, price, and availability should be displayed" time="0.0" />
+
+      <testcase classname="junit.framework.TestSuite" name="Scenario: I am on a simple product page" time="4.598" />
+
+      <testcase classname="Scenario: I am on simple product page and product is in stock" name="Given I am on a simple product page" time="0.0" />
+
+      <testcase classname="Scenario: I am on simple product page and product is in stock" name="And that product is in stock" time="0.0" />
+
+      <testcase classname="Scenario: I am on simple product page and product is in stock" name="Then Add to Cart button should be displayed" time="0.0" />
+
+      <testcase classname="Scenario: I am on simple product page and product is in stock" name="And editable quantity field should be displayed" time="0.0" />
+
+      <testcase classname="junit.framework.TestSuite" name="Scenario: I am on simple product page and product is in stock" time="3.27" />
+
+      <testcase classname="Scenario: Adding simple product to cart" name="Given I am on a simple product page" time="0.0" />
+
+      <testcase classname="Scenario: Adding simple product to cart" name="And that product is in stock" time="0.0" />
+
+      <testcase classname="Scenario: Adding simple product to cart" name="When I click the Add to Cart button" time="0.0" />
+
+      <testcase classname="Scenario: Adding simple product to cart" name="Then a page notification should be displayed saying product successfully added to cart" time="0.0" />
+
+      <testcase classname="Scenario: Adding simple product to cart" name="And product should be added to my cart" time="0.0" />
+
+      <testcase classname="junit.framework.TestSuite" name="Scenario: Adding simple product to cart" time="5.477" />
+
+      <system-out><![CDATA[Feature: smoke tests to test simple product page
+I am on a simple product page ran
+
+  Background:                           [90m# test/resource/SimpleProductSmokeTest.feature:3[0m
+    [32mGiven [0m[32mI am on a simple product page[0m [90m# SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page()[0m
+product name, price, and availability should be displayed ran
+
+  @test
+  Scenario: I am on a simple product page                          [90m# test/resource/SimpleProductSmokeTest.feature:7[0m
+    [32mThen [0m[32mproduct name, price, and availability should be displayed[0m [90m# SimpleProductPageStepDefinitions.product_name_price_and_availability_should_be_displayed()[0m
+I am on a simple product page ran
+
+  Background:                           [90m# test/resource/SimpleProductSmokeTest.feature:3[0m
+    [32mGiven [0m[32mI am on a simple product page[0m [90m# SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page()[0m
+that product is in stock ran
+Add to Cart button should be displayed ran
+editable quantity field should be displayed ran
+
+  @test
+  Scenario: I am on simple product page and product is in stock [90m# test/resource/SimpleProductSmokeTest.feature:11[0m
+    [32mAnd [0m[32mthat product is in stock[0m                                [90m# SimpleProductPageStepDefinitions.that_product_is_in_stock()[0m
+    [32mThen [0m[32mAdd to Cart button should be displayed[0m                 [90m# SimpleProductPageStepDefinitions.add_to_Cart_button_should_be_displayed()[0m
+    [32mAnd [0m[32meditable quantity field should be displayed[0m             [90m# SimpleProductPageStepDefinitions.editable_quantity_field_should_be_displayed()[0m
+I am on a simple product page ran
+
+  Background:                           [90m# test/resource/SimpleProductSmokeTest.feature:3[0m
+    [32mGiven [0m[32mI am on a simple product page[0m [90m# SimpleProductPageStepDefinitions.i_am_on_a_simple_product_page()[0m
+that product is in stock ran
+I click the Add to Cart button ran
+a page notification should be displayed saying product successfully added to cart ran
+product should be added to my cart ran
+
+  @test
+  Scenario: Adding simple product to cart                                                  [90m# test/resource/SimpleProductSmokeTest.feature:17[0m
+    [32mAnd [0m[32mthat product is in stock[0m                                                           [90m# SimpleProductPageStepDefinitions.that_product_is_in_stock()[0m
+    [32mWhen [0m[32mI click the Add to Cart button[0m                                                    [90m# SimpleProductPageStepDefinitions.i_click_the_Add_to_Cart_button()[0m
+    [32mThen [0m[32ma page notification should be displayed saying product successfully added to cart[0m [90m# SimpleProductPageStepDefinitions.a_page_notification_should_be_displayed_saying_product_successfully_added_to_cart()[0m
+    [32mAnd [0m[32mproduct should be added to my cart[0m                                                 [90m# SimpleProductPageStepDefinitions.product_should_be_added_to_my_cart()[0m
+
+3 Scenarios ([32m3 passed[0m)
+11 Steps ([32m11 passed[0m)
+0m13.282s
+
+]]></system-out>
+
+      <system-err><![CDATA[Aug 11, 2015 12:07:30 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: executable: /Users/Shared/Jenkins/phantomjs-2.0.0-macosx/bin/phantomjs
+Aug 11, 2015 12:07:30 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: port: 39238
+Aug 11, 2015 12:07:30 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: arguments: [--webdriver=39238, --webdriver-logfile=/Users/joshpartridge/Documents/workspace/SmokeTests/phantomjsdriver.log]
+Aug 11, 2015 12:07:30 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: environment: {}
+[INFO  - 2015-08-11T16:07:30.670Z] GhostDriver - Main - running on port 39238
+[INFO  - 2015-08-11T16:07:31.075Z] Session [11d338f0-4043-11e5-8548-5b93342d4c66] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2015-08-11T16:07:31.075Z] Session [11d338f0-4043-11e5-8548-5b93342d4c66] - page.customHeaders:  - {}
+[INFO  - 2015-08-11T16:07:31.075Z] Session [11d338f0-4043-11e5-8548-5b93342d4c66] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-08-11T16:07:31.075Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 11d338f0-4043-11e5-8548-5b93342d4c66
+[INFO  - 2015-08-11T16:07:34.238Z] ShutdownReqHand - _handle - About to shutdown
+Aug 11, 2015 12:07:34 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: executable: /Users/Shared/Jenkins/phantomjs-2.0.0-macosx/bin/phantomjs
+Aug 11, 2015 12:07:34 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: port: 5121
+Aug 11, 2015 12:07:34 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: arguments: [--webdriver=5121, --webdriver-logfile=/Users/joshpartridge/Documents/workspace/SmokeTests/phantomjsdriver.log]
+Aug 11, 2015 12:07:34 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: environment: {}
+[INFO  - 2015-08-11T16:07:35.012Z] GhostDriver - Main - running on port 5121
+[INFO  - 2015-08-11T16:07:35.320Z] Session [145af540-4043-11e5-aabe-f38c1d2e47d0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2015-08-11T16:07:35.320Z] Session [145af540-4043-11e5-aabe-f38c1d2e47d0] - page.customHeaders:  - {}
+[INFO  - 2015-08-11T16:07:35.320Z] Session [145af540-4043-11e5-aabe-f38c1d2e47d0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-08-11T16:07:35.320Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 145af540-4043-11e5-aabe-f38c1d2e47d0
+[INFO  - 2015-08-11T16:07:37.509Z] ShutdownReqHand - _handle - About to shutdown
+Aug 11, 2015 12:07:38 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: executable: /Users/Shared/Jenkins/phantomjs-2.0.0-macosx/bin/phantomjs
+Aug 11, 2015 12:07:38 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: port: 16774
+Aug 11, 2015 12:07:38 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: arguments: [--webdriver=16774, --webdriver-logfile=/Users/joshpartridge/Documents/workspace/SmokeTests/phantomjsdriver.log]
+Aug 11, 2015 12:07:38 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: environment: {}
+[INFO  - 2015-08-11T16:07:38.285Z] GhostDriver - Main - running on port 16774
+[INFO  - 2015-08-11T16:07:38.587Z] Session [164d7670-4043-11e5-9956-2b26bd165729] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2015-08-11T16:07:38.587Z] Session [164d7670-4043-11e5-9956-2b26bd165729] - page.customHeaders:  - {}
+[INFO  - 2015-08-11T16:07:38.587Z] Session [164d7670-4043-11e5-9956-2b26bd165729] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-08-11T16:07:38.587Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 164d7670-4043-11e5-9956-2b26bd165729
+[INFO  - 2015-08-11T16:07:42.983Z] ShutdownReqHand - _handle - About to shutdown
+]]></system-err>
+
+  </testsuite>
+</testsuites>
