@@ -18,7 +18,7 @@ import cucumber.api.junit.Cucumber;
 		"junit:target/cucumber-junit-report/allcukes.xml" },
 		
 		// Use tags to determine what tests you want to run
-		//tags = {"@Example"}
+		
 )
 
 public class TestCucumberIT extends AbstractPageStepDefinitions {
