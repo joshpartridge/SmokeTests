@@ -69,7 +69,7 @@
 		<profile>
 			<id>integration-tests</id>
 			<properties>
-				<cucumber.options>--format json:target/cucumber.json --tags @Example</cucumber.options>
+				<cucumber.options>--format json:target/cucumber.json --tags </cucumber.options>
 			</properties>
 		</profile>
 	</profiles>
